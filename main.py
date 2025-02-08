@@ -26,3 +26,6 @@ def solveMyValue(fahrenheit):
     answer = (fahrenheit - 32) * (5/9)
     rounded_number = round(answer, 4)
     return rounded_number
+
+myNumber = solveMyValue(32)
+print("When I call the function it returned", myNumber)
